@@ -1,0 +1,3 @@
+JSX是一個JavaScript的語法拓展，或者說是一個類似XML的ECMAScript的語法拓展
+
+React本身並不強制使用JSX

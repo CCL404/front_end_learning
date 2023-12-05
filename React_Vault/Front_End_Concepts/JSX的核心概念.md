@@ -1,0 +1,3 @@
+React需要將組件轉化爲虛擬DOM Tree，XML在Tree Structure有天生的可讀性強的優勢
+
+更具有可讀性，更貼近HTML

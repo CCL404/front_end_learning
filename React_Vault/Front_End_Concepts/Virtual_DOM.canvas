@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"a860794b9ae15c55","type":"text","text":"組件初始化","x":-540,"y":-240,"width":250,"height":60},
+		{"id":"7d3497a0f41b6210","type":"text","text":"生成虛擬DOM","x":-540,"y":-78,"width":250,"height":60},
+		{"id":"d5fee0bb356fccf9","type":"text","text":"真實DOM","x":-540,"y":102,"width":250,"height":60},
+		{"id":"052fb29b010852fd","type":"text","text":"組件更新","x":0,"y":-240,"width":250,"height":60},
+		{"id":"ef964cd2a8fd40f6","type":"text","text":"生成新的虛擬DOM","x":0,"y":-78,"width":250,"height":60},
+		{"id":"1a437653948ea7cd","type":"text","text":"定位出兩次虛擬DOM的差異","x":0,"y":102,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"2b3d57cd7ab75ab7","fromNode":"a860794b9ae15c55","fromSide":"bottom","toNode":"7d3497a0f41b6210","toSide":"top","label":"render方法"},
+		{"id":"e834438583badb72","fromNode":"7d3497a0f41b6210","fromSide":"bottom","toNode":"d5fee0bb356fccf9","toSide":"top","label":"ReactDOM.render方法"},
+		{"id":"3b64dc1259ed3806","fromNode":"052fb29b010852fd","fromSide":"bottom","toNode":"ef964cd2a8fd40f6","toSide":"top","label":"render方法"},
+		{"id":"0cf430b4924f0579","fromNode":"ef964cd2a8fd40f6","fromSide":"bottom","toNode":"1a437653948ea7cd","toSide":"top","label":"diff算法"}
+	]
+}

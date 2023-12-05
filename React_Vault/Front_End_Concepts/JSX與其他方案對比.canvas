@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"5c8007445651c937","type":"text","text":"方案對比","x":-540,"y":-40,"width":250,"height":60},
+		{"id":"866d31538a9e5b6b","type":"text","text":"模板字符串","x":-200,"y":-40,"width":250,"height":60},
+		{"id":"ec8ba48cbc29ff7c","type":"text","text":"模板","x":-200,"y":-260,"width":250,"height":60},
+		{"id":"8a5a66673cf46b35","type":"text","text":"引入概念多","x":180,"y":-200,"width":250,"height":60},
+		{"id":"9dc1ce8c8b18b390","type":"text","text":"弱關注度分離","x":180,"y":-320,"width":250,"height":60},
+		{"id":"b38fc3b9a043ebec","type":"text","text":"結構描述複雜","x":180,"y":-100,"width":250,"height":60},
+		{"id":"257c901a22803774","x":180,"y":20,"width":250,"height":60,"type":"text","text":"語法提示差"},
+		{"id":"d67637822e693e2d","x":-200,"y":181,"width":250,"height":60,"type":"text","text":"JXON"},
+		{"id":"0a5177c16efe1a2f","x":180,"y":181,"width":250,"height":60,"type":"text","text":"語法提示差"}
+	],
+	"edges":[
+		{"id":"b5b7cc26f486e509","fromNode":"ec8ba48cbc29ff7c","fromSide":"right","toNode":"9dc1ce8c8b18b390","toSide":"left"},
+		{"id":"45713cda7a2dd69e","fromNode":"ec8ba48cbc29ff7c","fromSide":"right","toNode":"8a5a66673cf46b35","toSide":"left"},
+		{"id":"5493f030ee6b7ebb","fromNode":"5c8007445651c937","fromSide":"right","toNode":"ec8ba48cbc29ff7c","toSide":"left"},
+		{"id":"6466ee234c0823b6","fromNode":"5c8007445651c937","fromSide":"right","toNode":"866d31538a9e5b6b","toSide":"left"},
+		{"id":"e9bbb11453919e6c","fromNode":"866d31538a9e5b6b","fromSide":"right","toNode":"b38fc3b9a043ebec","toSide":"left"},
+		{"id":"bbecf2a1b1051c2c","fromNode":"866d31538a9e5b6b","fromSide":"right","toNode":"257c901a22803774","toSide":"left"},
+		{"id":"9c27170f48cf3efb","fromNode":"5c8007445651c937","fromSide":"right","toNode":"d67637822e693e2d","toSide":"left"},
+		{"id":"4755141fbc5b604e","fromNode":"d67637822e693e2d","fromSide":"right","toNode":"0a5177c16efe1a2f","toSide":"left"}
+	]
+}

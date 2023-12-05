@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"9c6c7cdfa0affdc5","x":-460,"y":-240,"width":250,"height":60,"color":"5","type":"text","text":"HTML片段"},
+		{"id":"c0cdef1699060342","x":-160,"y":-240,"width":250,"height":60,"color":"5","type":"text","text":"CSS 樣式"},
+		{"id":"07172c19cfd2b390","x":140,"y":-240,"width":250,"height":60,"color":"5","type":"text","text":"JavaScript 代碼"},
+		{"id":"a4d80a6acde44bb6","x":-160,"y":-40,"width":250,"height":60,"color":"1","type":"text","text":"jQuery"},
+		{"id":"047d7591ea4fac30","x":-160,"y":140,"width":250,"height":60,"color":"4","type":"text","text":"網頁"}
+	],
+	"edges":[
+		{"id":"a94cd771f2665aa8","fromNode":"9c6c7cdfa0affdc5","fromSide":"bottom","toNode":"a4d80a6acde44bb6","toSide":"top"},
+		{"id":"082ea59881652518","fromNode":"c0cdef1699060342","fromSide":"bottom","toNode":"a4d80a6acde44bb6","toSide":"top"},
+		{"id":"b230125d062ca47f","fromNode":"07172c19cfd2b390","fromSide":"bottom","toNode":"a4d80a6acde44bb6","toSide":"top"},
+		{"id":"6069a17574d89998","fromNode":"a4d80a6acde44bb6","fromSide":"bottom","toNode":"047d7591ea4fac30","toSide":"top"}
+	]
+}

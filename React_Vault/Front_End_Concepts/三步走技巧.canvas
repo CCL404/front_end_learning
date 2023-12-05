@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"24fee8c4335625ae","type":"file","file":"Front_End_Learning/React_Vault/Front_End_Concepts/JSX與其他方案的對比.md","x":-20,"y":20,"width":400,"height":460},
+		{"id":"3bd6f1daf872add3","type":"file","file":"Front_End_Learning/React_Vault/Front_End_Concepts/爲什麼React使用JSX.md","x":-740,"y":-180,"width":400,"height":430},
+		{"id":"4e4b7556be3fb936","type":"file","file":"Front_End_Learning/React_Vault/Front_End_Concepts/一句話解釋JSX.md","x":-20,"y":-480,"width":400,"height":180},
+		{"id":"107361a7a07d45d2","type":"file","file":"Front_End_Learning/React_Vault/Front_End_Concepts/JSX的核心概念.md","x":-20,"y":-240,"width":400,"height":180}
+	],
+	"edges":[
+		{"id":"6a3ed4f86815c786","fromNode":"3bd6f1daf872add3","fromSide":"right","toNode":"4e4b7556be3fb936","toSide":"left"},
+		{"id":"3d9003412d6b17b9","fromNode":"3bd6f1daf872add3","fromSide":"right","toNode":"107361a7a07d45d2","toSide":"left"},
+		{"id":"ad0705387bc2f415","fromNode":"3bd6f1daf872add3","fromSide":"right","toNode":"24fee8c4335625ae","toSide":"left"}
+	]
+}

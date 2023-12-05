@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"219891f110e3d93a","x":-460,"y":-80,"width":250,"height":60,"type":"text","text":"Router"},
+		{"id":"d877fcc08c549bf1","x":-107,"y":46,"width":250,"height":60,"type":"text","text":"Collection"},
+		{"id":"5f9cd35c43c7d6e6","x":280,"y":-80,"width":250,"height":60,"type":"text","text":"Model"},
+		{"id":"1f69935988d76a51","x":-107,"y":-200,"width":250,"height":60,"type":"text","text":"View"}
+	],
+	"edges":[
+		{"id":"59c691279d5f2e3c","fromNode":"219891f110e3d93a","fromSide":"top","toNode":"1f69935988d76a51","toSide":"left"},
+		{"id":"788a818c17ecb915","fromNode":"219891f110e3d93a","fromSide":"bottom","toNode":"d877fcc08c549bf1","toSide":"left"},
+		{"id":"3e0b26337484b8a1","fromNode":"d877fcc08c549bf1","fromSide":"top","toNode":"1f69935988d76a51","toSide":"bottom"},
+		{"id":"1938915180ddceee","fromNode":"d877fcc08c549bf1","fromSide":"right","toNode":"5f9cd35c43c7d6e6","toSide":"left"},
+		{"id":"10b79c28982820c6","fromNode":"5f9cd35c43c7d6e6","fromSide":"bottom","toNode":"d877fcc08c549bf1","toSide":"bottom"}
+	]
+}

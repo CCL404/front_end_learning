@@ -1,0 +1,7 @@
+- ## 屬性的語法
+	- *屬性的名稱* = “屬性的內容”
+- 屬性放在開頭標籤的角括號中
+	- < a *href*="https:google.com/">Google</a >
+	- 以上的意思是：a標籤有個*href*的*屬性*，這個*屬性*爲**超鏈接**屬性，前往的網址是google.com
+- ## 標籤可以包括一個到多個屬性
+	- < div *id*="titile" *class*="head" >Title< /div >
